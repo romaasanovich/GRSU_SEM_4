@@ -1,0 +1,10 @@
+C:\Users\romaa\Projects\OS\LAB_No1\LAB_No1\bin\Debug\LAB_No1.exe.config
+C:\Users\romaa\Projects\OS\LAB_No1\LAB_No1\bin\Debug\LAB_No1.exe
+C:\Users\romaa\Projects\OS\LAB_No1\LAB_No1\bin\Debug\LAB_No1.pdb
+C:\Users\romaa\Projects\OS\LAB_No1\LAB_No1\obj\Debug\LAB_No1.csprojResolveAssemblyReference.cache
+C:\Users\romaa\Projects\OS\LAB_No1\LAB_No1\obj\Debug\LAB_No1.Form1.resources
+C:\Users\romaa\Projects\OS\LAB_No1\LAB_No1\obj\Debug\LAB_No1.Properties.Resources.resources
+C:\Users\romaa\Projects\OS\LAB_No1\LAB_No1\obj\Debug\LAB_No1.csproj.GenerateResource.Cache
+C:\Users\romaa\Projects\OS\LAB_No1\LAB_No1\obj\Debug\LAB_No1.csproj.CoreCompileInputs.cache
+C:\Users\romaa\Projects\OS\LAB_No1\LAB_No1\obj\Debug\LAB_No1.exe
+C:\Users\romaa\Projects\OS\LAB_No1\LAB_No1\obj\Debug\LAB_No1.pdb
