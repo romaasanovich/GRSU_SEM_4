@@ -1,0 +1,61 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="myinterests">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="library">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="book" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:choice maxOccurs="unbounded" minOccurs="0">
+                    <xs:element type="xs:string" name="title"/>
+                    <xs:element type="xs:string" name="author"/>
+                    <xs:element type="xs:string" name="binding"/>
+                    <xs:element type="xs:string" name="pages"/>
+                    <xs:element type="xs:string" name="priceinshoop"/>
+                  </xs:choice>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="playlist">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sound" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="artist"/>
+                    <xs:element type="xs:string" name="song"/>
+                    <xs:element type="xs:string" name="informationflowrate"/>
+                    <xs:element type="xs:string" name="durability"/>
+                    <xs:element type="xs:float" name="Released"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cars">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="mark"/>
+                    <xs:element type="xs:string" name="model"/>
+                    <xs:element type="xs:short" name="yearofissue"/>
+                    <xs:element type="xs:string" name="enginecapacity"/>
+                    <xs:element type="xs:string" name="atype"/>
+                    <xs:element type="xs:string" name="maximumtorque"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+COPY TO CLIPBOARD	 SELECT ALL

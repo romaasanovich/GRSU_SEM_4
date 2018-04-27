@@ -1,0 +1,94 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT myinterests (library,playlist,cars)>
+<!ATTLIST myinterests
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT library (book)+>
+<!ATTLIST library
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT playlist (sound)+>
+<!ATTLIST playlist
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cars (car)+>
+<!ATTLIST cars
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT book (title,author,(binding|pages)+,priceinshoop)>
+<!ATTLIST book
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT sound (artist,song,informationflowrate,durability,Released)>
+<!ATTLIST sound
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT car (mark,model,yearofissue,enginecapacity,atype,
+               maximumtorque)>
+<!ATTLIST car
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT binding (#PCDATA)>
+<!ATTLIST binding
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT pages (#PCDATA)>
+<!ATTLIST pages
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT priceinshoop (#PCDATA)>
+<!ATTLIST priceinshoop
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT artist (#PCDATA)>
+<!ATTLIST artist
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT song (#PCDATA)>
+<!ATTLIST song
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT informationflowrate (#PCDATA)>
+<!ATTLIST informationflowrate
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT durability (#PCDATA)>
+<!ATTLIST durability
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Released (#PCDATA)>
+<!ATTLIST Released
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT mark (#PCDATA)>
+<!ATTLIST mark
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT model (#PCDATA)>
+<!ATTLIST model
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT yearofissue (#PCDATA)>
+<!ATTLIST yearofissue
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT enginecapacity (#PCDATA)>
+<!ATTLIST enginecapacity
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT atype (#PCDATA)>
+<!ATTLIST atype
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT maximumtorque (#PCDATA)>
+<!ATTLIST maximumtorque
+  xmlns CDATA #FIXED ''>

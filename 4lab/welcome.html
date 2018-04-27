@@ -1,0 +1,26 @@
+<html>
+   <head>
+      <title>Web Page</title>
+      <link href="formStyle.css" rel="stylesheet" type="text/css">
+
+      <script language="javascript" type="text/javascript" encoding="UTF-8">
+         function OnLoad() {
+             var data = window.location.href.split("?")[1];
+             
+             var name = data.split("&")[0].split("=")[1];
+             var surname = data.split("&")[1].split("=")[1];
+             var day = data.split("&")[5].split("=")[1];
+             var month = data.split("&")[6].split("=")[1];
+             var year = data.split("&")[7].split("=")[1];
+             
+             document.getElementsByTagName("h1")[0].innerHTML = "Hello, " + name + " " + surname + "!";
+             document.getElementsByTagName("h1")[1].innerHTML = "Your birthday is on " + day+" "+ month+" "+year + "!";
+
+         } 
+      </script>
+    </head>
+   <body onload="OnLoad()">
+       <h1></h1>
+       <h1></h1>
+   </body>
+</html>

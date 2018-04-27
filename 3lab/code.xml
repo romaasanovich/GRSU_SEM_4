@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lab3.xsl"?>
+<myinterests>
+ <library>
+	<books>
+	  <book>
+		<title>Harry Potter and the Philosopher's Stone</title>
+		<author>J. K. Rowling</author>
+		<pages>309</pages>
+		<binding>Exclusive</binding>
+		<priceinshoop>110.20</priceinshoop>
+		<year>1998</year>
+	  </book>
+	  <book>
+		<title>The beauty and the Beast</title>
+		<author>Gabriel Susanna Barbo de Villeneuve</author>
+		<pages>320 </pages>
+		<binding>Exclusive</binding>
+		<priceinshoop>115</priceinshoop>
+		<year>1933</year>
+	 </book>
+	  <book>
+		<title>A Game of Thrones</title>
+		<author>George R. R. Martin</author>
+		<pages>694</pages>
+		<binding>Exclusive</binding>
+		<priceinshoop>250</priceinshoop>
+		<year>1996</year>
+	 </book>	
+	</books>
+ </library>
+ <playlist>
+	 <songs>
+	   <song>
+	     <artist>ATL</artist>
+		 <track>Marabu</track>
+		 <informationflowrate>320</informationflowrate>
+		 <durability>3.12</durability>
+		 <released>21.06.2017</released> 
+		 </song>
+	   <song>
+	     <artist>System of a down</artist>
+		 <track>War</track>
+		 <informationflowrate>320</informationflowrate>
+		 <durability>3.20</durability>
+		 <released>15.05.2016</released> 
+	   </song>
+	   <song>
+	     <artist>Nickelback</artist>
+		 <track>Lullaby</track>
+		 <informationflowrate>353</informationflowrate>
+		 <durability>4.16</durability>
+		 <released>23.05.2016</released> 
+	   </song>
+	 </songs>
+ </playlist>
+ <autopark>
+	 <cars>
+	   <car>
+	     <mark>Mercedes</mark>
+	     <model>c63amg</model>
+	     <torque>1000 N*m</torque>
+	     <enginecapacity>4.3 l.</enginecapacity>
+	     <power>630ph</power>
+	     <type>sport coupe</type>
+	     <year>2018</year>
+	   </car>
+	   <car>
+	     <mark>Audi</mark>
+	     <model>RS6</model>
+	     <torque>650 N*m</torque>
+	     <enginecapacity>4.0 l.</enginecapacity>
+	     <power>520ph</power>
+	     <type>sport universal</type>
+	     <year>2014</year>
+	   </car>
+	   <car>
+	     <mark>VW</mark>
+	     <model>Golf 7 R</model>
+	     <torque>400 N*m</torque>
+	     <enginecapacity>2.0 T</enginecapacity>
+	     <power>411ph</power>
+	     <type>sport hatchback</type>
+	     <year>2015</year>
+	   </car>
+	 </cars>
+ </autopark>
+ <flowers>
+    <bouquets>
+	    <bouquet>
+	        <name>Sicily</name>
+			<numberofflowers>9</numberofflowers>
+		</bouquet>
+		<bouquet>
+		    <name>Fairy tale</name>
+			<numberofflowers>33</numberofflowers>
+		</bouquet>
+		<bouquet>
+		    <name>Space</name>
+			<numberofflowers>27</numberofflowers>
+		</bouquet>
+		<bouquet>
+		    <name>Love</name>
+			<numberofflowers>3</numberofflowers>
+		</bouquet>
+		<bouquet>
+		    <name>Confession</name>
+			<numberofflowers>7</numberofflowers>
+		</bouquet>
+		<bouquet>
+		    <name>Happiness</name>
+			<numberofflowers>4</numberofflowers>
+		</bouquet>
+	</bouquets>
+</flowers>
+</myinterests>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bookstoreandplaylist SYSTEM "file.dtd">
+
+
+<myinterests>
+<library>	
+ <book>
+    <title>The Master and Margarita</title>
+    <author> Mikhail Bulgakov</author>
+    <binding>Exclusive</binding>
+    <pages> 250 pages</pages>
+    <priceinshoop>110.20$</priceinshoop>
+ </book>
+ <book>
+	<title>War and Peace</title>
+	<author>Leo Tolstoy</author>
+	<pages>1274 pages</pages>
+	<binding>Exclusive</binding>
+	<priceinshoop>250$</priceinshoop>
+</book>	
+<book>
+	<title>The beauty and the Beast</title>
+	<author>Gabriel Susanna Barbo de Villeneuve</author>
+	<pages>320 pages </pages>
+	<binding>Exclusive</binding>
+	<priceinshoop>115$</priceinshoop>
+</book>
+	</library>
+<playlist>
+<sound>
+    <artist>MOT</artist>
+	<song>Great</song>
+	<informationflowrate> 320 kbps</informationflowrate>
+	<durability>3.33 sec</durability>
+	<Released> 2015</Released>
+</sound>
+<sound>
+    <artist>Eminem</artist>
+	<song>Rap God</song>
+	<informationflowrate> 320 kbps </informationflowrate>
+	<durability>6.03 sec</durability>
+	<Released> 2013</Released>
+</sound>
+<sound>
+    <artist>dramma</artist>
+	<song>Glide</song>
+	<informationflowrate> 320 kbps </informationflowrate>
+	<durability>3.40 sec</durability>
+	<Released> 2014</Released>
+</sound>
+	</playlist>
+<cars>
+  <car>
+	<mark>Audi</mark>
+	<model>Q7 Res1</model>
+	<yearofissue>2010</yearofissue>
+	 <enginecapacity> 5999 см³</enginecapacity>
+	  <atype>SUV</atype>
+	  <maximumtorque> 1000 n*m</maximumtorque>
+  </car>
+	<car>
+	<mark>BMW</mark>
+	<model>M760Li xDrive (G12)</model>
+	<yearofissue>2017</yearofissue>
+	 <enginecapacity> 6592 см³</enginecapacity>
+	  <atype>sedan</atype>
+	  <maximumtorque> 800 n*m</maximumtorque>
+  </car>
+	<car>
+	<mark>Mercedes</mark>
+	<model>	AMG S 65 Coupe</model>
+	<yearofissue>2018</yearofissue>
+	 <enginecapacity> 6000 см³</enginecapacity>
+	  <atype>sprot coupe</atype>
+	  <maximumtorque> 1000 n*m</maximumtorque>
+  </car>
+</cars>
+</myinterests>
